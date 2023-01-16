@@ -1,0 +1,157 @@
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+    
+body {
+    font-family: 'Roboto', sans-serif;   
+    }
+    
+.content {
+    margin: auto;
+    max-width: fit-content;
+    font-size: large;
+}
+
+p {
+    margin: auto;
+    max-width: fit-content;
+    font-size: large;
+}
+
+.image {
+    margin: auto;
+    max-width: 30%;
+    width: 300px;
+    height: 175px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    left: 42%;
+    top:auto;
+    position: relative;
+    border: 2px;
+    border-color: slategray;
+    border-radius: 5px;
+    border-style: inset; 
+}
+
+.image:hover {
+    margin: auto;
+    max-width: auto;
+    width: auto;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 150px;
+    left: 35%;
+    size: 100%;
+    position: relative;
+    border: 2px;
+    border-color: slategray;
+    border-radius: 5px;
+    border-style: inset; 
+   
+}
+.Bread {
+    margin: auto;
+    max-width: fit-content;
+    font-size: large;
+}
+.FirstText {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+h1 {
+    max-width: 960px;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+}
+  
+  
+  button {
+    margin: auto;
+    max-width:fit-content;
+    width: auto;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 30px;
+    margin-right: 40px;
+    text-align: center;
+    cursor:pointer;
+    background-color: whitesmoke;
+    color:slategray;
+    border: 1px;
+    border-color: slategray;
+    border-radius: 1px;
+    border-style:outset;
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    transition: height 0.35s, width 0.35s ease;
+}
+button:hover {
+        color: white;
+        width: 200px;
+        height: 200px;
+        font-size: 44px;
+        text-transform: uppercase;
+        background-image: url(/home/dennis/repos/odin-recipes/pictures/button.png);   
+}
+
+.FirstText:hover {
+    margin: auto;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 50px;
+}
+.Bread:hover {
+    margin-right: auto;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 35px;
+}
+
+.list {
+    margin-left: 6%;
+    max-width: fit-content;
+    margin-top: 0px;
+    border: 1px;
+    border-color: slategray;
+    border-style:dotted;
+    border-radius: 4px;
+}
+.list:hover {
+    margin-left: 10%;
+    font-size: 35px;
+    max-width: 500px;
+}
+.directions {
+    margin-right: 6%;
+    margin-bottom: -100px;
+    max-width: 40%;
+    border: 1px;
+    border-color: slategray;
+    border-style:dashed;
+    border-radius: 3px;
+}   
+.directions:hover {
+    margin-right: 25%;
+    font-size: 35px;
+    text-align: right;
+} 
+
+a:link { text-decoration: none; }
+
+a:visited { text-decoration: none; }
+
+a:hover { text-decoration: none; }
+
+a:active { text-decoration: none; }
