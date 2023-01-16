@@ -120,8 +120,8 @@ button:hover {
 }
 
 .list {
-    margin-left: 6%;
-    max-width: fit-content;
+    margin-left: 1%;
+    max-width: 40%;
     margin-top: 0px;
     border: 1px;
     border-color: slategray;
@@ -129,9 +129,10 @@ button:hover {
     border-radius: 4px;
 }
 .list:hover {
-    margin-left: 10%;
-    font-size: 35px;
-    max-width: 500px;
+    margin-left: 1%;
+    font-size: 25px;
+    max-width: 40%;
+    height: fit-content;
 }
 .directions {
     margin-right: 6%;
@@ -141,9 +142,10 @@ button:hover {
     border-color: slategray;
     border-style:dashed;
     border-radius: 3px;
+    text-align: right;
 }   
 .directions:hover {
-    margin-right: 25%;
+    margin-right: 3%;
     font-size: 35px;
     text-align: right;
 } 
@@ -155,3 +157,9 @@ a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 
 a:active { text-decoration: none; }
+.Copyright {
+    font-size:small;
+    text-align:center;
+    margin-top: 90%;
+    
+}
