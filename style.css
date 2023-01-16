@@ -133,6 +133,7 @@ button:hover {
     font-size: 25px;
     max-width: 40%;
     height: fit-content;
+    transition: margin-right 0.35s, height 0.35s, font-size 0.35s, ease-in-out;
 }
 .directions {
     margin-right: 6%;
@@ -143,11 +144,14 @@ button:hover {
     border-style:dashed;
     border-radius: 3px;
     text-align: right;
+    transition: margin-right 0.35s,height 0.35s, font-size 0.35s, ease-in-out;
+
 }   
 .directions:hover {
     margin-right: 3%;
     font-size: 35px;
     text-align: right;
+    transition margin-right 0.35s, height 0.35s, font-size 0.35s, ease-in-out;
 } 
 
 a:link { text-decoration: none; }
